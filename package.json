@@ -4,14 +4,14 @@
   "scripts": {
     "build": "mkdir -p www && echo '<html></html>' > www/index.html",
     "ionic:build": "npm run build",
-    "capacitor:sync": "cap sync android"
+    "postinstall": "echo 'skip'"
   },
   "dependencies": {
-    "@capacitor/android": "^6.0.0",
-    "@capacitor/core": "^6.0.0",
-    "@capacitor/cli": "^6.0.0",
-    "@capacitor/push-notifications": "^6.0.0",
+    "@capacitor/android": "^5.0.0",
+    "@capacitor/core": "^5.0.0",
+    "@capacitor/cli": "^5.0.0",
+    "@capacitor/push-notifications": "^5.0.0",
     "@capacitor-community/keep-awake": "^4.0.0",
-    "@capacitor-community/privacy-screen": "^6.0.0"
+    "@capacitor-community/privacy-screen": "^5.0.0"
   }
 }
