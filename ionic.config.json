@@ -1,7 +1,0 @@
-{
-  "name": "mi-app-esl",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "custom"
-}
