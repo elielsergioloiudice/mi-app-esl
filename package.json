@@ -1,19 +1,11 @@
 {
   "name": "mi-app-esl",
   "version": "1.0.0",
-  "description": "App ESL con Notificaciones Push",
-  "main": "index.js",
   "dependencies": {
     "@capacitor/android": "5.7.0",
     "@capacitor/core": "5.7.0",
     "@capacitor/cli": "5.7.0",
     "@capacitor/push-notifications": "5.1.0",
     "@capacitor/browser": "5.1.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+  }
 }
