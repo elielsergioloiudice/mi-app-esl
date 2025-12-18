@@ -5,10 +5,5 @@
   "server": {
     "url": "https://app.esl.ar/app.html",
     "cleartext": true
-  },
-  "android": {
-    "buildOptions": {
-      "releaseType": "debug"
-    }
   }
 }
