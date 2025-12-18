@@ -1,0 +1,9 @@
+{
+  "appId": "ar.esl.app",
+  "appName": "ESL App",
+  "webDir": "www",
+  "server": {
+    "url": "https://app.esl.ar/app.html",
+    "cleartext": true
+  }
+}
