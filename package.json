@@ -1,14 +1,16 @@
 {
   "name": "mi-app-esl",
   "version": "0.0.1",
+  "scripts": {
+    "build": "mkdir -p www && echo '<html></html>' > www/index.html",
+    "ionic:build": "npm run build",
+    "ionic:persist": "echo 'persist'"
+  },
   "dependencies": {
     "@capacitor/android": "latest",
     "@capacitor/core": "latest",
     "@capacitor/push-notifications": "latest",
     "@capacitor-community/keep-awake": "latest",
     "@capacitor-community/privacy-screen": "latest"
-  },
-  "scripts": {
-    "build": "mkdir -p www"
   }
 }
