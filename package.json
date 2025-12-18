@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "scripts": {
     "build": "mkdir -p www && echo '<html></html>' > www/index.html",
-    "ionic:build": "npm run build"
+    "ionic:build": "npm run build",
+    "ionic:cap_add": "npx cap add android",
+    "postinstall": "mkdir -p www && npx cap add android || echo 'Ya existe'"
   },
   "dependencies": {
     "@capacitor/android": "5.7.0",
