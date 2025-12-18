@@ -1,0 +1,10 @@
+{
+  "name": "mi-app-esl",
+  "dependencies": {
+    "@capacitor/android": "latest",
+    "@capacitor/core": "latest",
+    "@capacitor/push-notifications": "latest",
+    "@capacitor-community/keep-awake": "latest",
+    "@capacitor-community/privacy-screen": "latest"
+  }
+}
