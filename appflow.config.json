@@ -1,0 +1,3 @@
+{
+  "dependency_install": "npm install --legacy-peer-deps"
+}
